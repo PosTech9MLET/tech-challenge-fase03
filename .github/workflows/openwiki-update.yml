@@ -11,7 +11,7 @@ name: OpenWiki Update
 # Também pode ser reutilizado por outros repositórios:
 #   jobs:
 #     openwiki:
-#       uses: SkiereszDiego/tech-challenge-fase03/.github/workflows/openwiki-update.yml@main
+#       uses: PosTech9MLET/tech-challenge-fase03/.github/workflows/openwiki-update.yml@main
 #       secrets: inherit
 
 on:

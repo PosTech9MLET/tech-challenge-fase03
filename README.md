@@ -129,7 +129,7 @@ O Python 3.12 pode ser instalado e gerenciado pelo próprio `uv`.
 ### Clonar o repositório
 
 ```bash
-git clone git@github.com:SkiereszDiego/tech-challenge-fase03.git
+git clone git@github.com:PosTech9MLET/tech-challenge-fase03.git
 cd tech-challenge-fase03
 ```
 
@@ -397,7 +397,7 @@ Outros repositórios podem reutilizar o mesmo workflow:
 ```yaml
 jobs:
   openwiki:
-    uses: SkiereszDiego/tech-challenge-fase03/.github/workflows/openwiki-update.yml@main
+    uses: PosTech9MLET/tech-challenge-fase03/.github/workflows/openwiki-update.yml@main
     secrets: inherit
 ```
 
