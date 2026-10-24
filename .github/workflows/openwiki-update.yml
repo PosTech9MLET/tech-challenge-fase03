@@ -70,9 +70,9 @@ jobs:
         continue-on-error: true
         run: openwiki code ${{ steps.mode.outputs.flag }} --print
         env:
-          OPENWIKI_PROVIDER: anthropic
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OPENWIKI_MODEL_ID: "claude-opus-5"
+          OPENWIKI_PROVIDER: gemini
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENWIKI_MODEL_ID: "gemini-3.6-flash"
           # Required for the LangSmith connector's code-mode pull to authenticate.
           # For extra workspaces, add OPENWIKI_LANGSMITH_API_KEY_2, _3, ... as repo
           # secrets and env entries here.

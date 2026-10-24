@@ -390,7 +390,7 @@ Em cada execução:
 
 Pushes que só alteram `openwiki/` ou `docs/openwiki-visualizer/` não disparam o workflow. Assim, o merge do PR da wiki não inicia um novo ciclo.
 
-Para funcionar, o repositório precisa do secret `ANTHROPIC_API_KEY` e da opção *Settings → Actions → General → Allow GitHub Actions to create and approve pull requests* ativada. Os secrets da LangSmith são opcionais.
+A wiki é gerada com o Gemini (`OPENWIKI_PROVIDER: gemini`, modelo `gemini-3.6-flash`). Para funcionar, o repositório precisa do secret `GEMINI_API_KEY` (chave do Google AI Studio) e da opção *Settings → Actions → General → Allow GitHub Actions to create and approve pull requests* ativada. Os secrets da LangSmith são opcionais.
 
 Outros repositórios podem reutilizar o mesmo workflow:
 
